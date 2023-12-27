@@ -15,3 +15,11 @@ object Solution {
         
     }
 }
+
+
+object Main {
+  def main(args: Array[String]): Unit = {
+    val ans = Solution.myPow(2.4, 5)
+    println(s"ans =  $ans")
+  }
+}
